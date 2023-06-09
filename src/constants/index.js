@@ -3,9 +3,8 @@ import {
   backend,
   creator,
   web,
-  kaamik,
-  bhive,
-  nte,
+  percoyo,
+  doctrue,
   sentinal,
   fullstack,
   ananya,
@@ -48,39 +47,26 @@ const services = [
 
 const experiences = [
   {
-    title: "FullStack Dev Intern",
-    company_name: "BHive",
-    icon: bhive,
+    title: "Frontend Dev Intern",
+    company_name: "DocTrue",
+    icon: doctrue,
     iconBg: "white",
-    date: "March 2023 - Present",
+    date: "June 2023 - Present",
     points: [
-      "Engineered a comprehensive full-stack web application utilizing NextJS, MongoDB, and TailwindCSS, coupled with a secure authentication layer from Firebase",
-      "Spearheaded the development of a highly efficient mobile application built on React Expo, MongoDB, and TailwindCSS, prioritizing user experience and retention through reliable authentication mechanisms",
-      "Initiated a company-wide project aimed at monitoring and measuring tasks completed and time expended by each team member",
+      "Engineered a comprehensive full-stack web application utilizing ReactJS and TailwindCSS, coupled with a secure authentication layer and messaging from Firebase",
+      "Spearheaded the development of a highly efficient mobile application built on React Expo, and TailwindCSS, prioritizing user experience and retention through reliable authentication mechanisms",
+      "Initiated a company-wide project aimed at reducing the out-patient waiting time in clinics and hospitals.",
     ],
   },
   {
-    title: "Software Intern",
-    company_name: "Kaamik",
-    icon: kaamik,
-    iconBg: "#383E56",
-    date: " 2021 -  2022",
-    points: [
-      "Conceptualized and built the Kaamik Website, successfully showcasing over 300 unique SKUs",
-      "Developed 'The Silent Entrepreneurs' Podcast Website, incorporating contemporary styling for enhanced user experience",
-      "Contributed significantly to AR projects, crafting 3D models of real-world objects, with capabilities to scale, position, animate, and interchange between models, aiding in the construction of the Kaamik Metaverse POC",
-      "Ventured into Digital Marketing and Content Creation, enhancing the brand's online presence and engagement",
-    ],
-  },
-  {
-    title: "Technical Consultant",
-    company_name: "Not The End (NGO - USA)",
-    icon: nte,
+    title: "Web Dev Intern",
+    company_name: "Percoyo",
+    icon: percoyo,
     iconBg: "white",
-    date: "2021 -  Present",
+    date: "Mar 2023 -  May 2023",
     points: [
       "Developed a comprehensive website from scratch, utilizing HTML, CSS, JS, and Bootstrap for seamless user experience",
-      "The website is currently being utilized by a diverse user base including professionals, parents, and students",
+      "The website is currently being utilized as a landing page for Sagar Health Seva",
       "Established the benchmarks for the brand design, reflecting consistency and uniqueness across various platforms",
     ],
   },
@@ -93,7 +79,7 @@ const experiences = [
     points: [
       "Served as a Hackathon Organizer for Sentinal Hack 3.0 during 2022 and 2023, overseeing crucial technical components",
       "Managed the infrastructure, ensuring smooth operations and consistent availability throughout the event",
-      "Demonstrated creative skills by designing the event posters, enhancing visual appeal and brand recognition",
+      "Demonstrated creative skills by designing the logo, event posters, enhancing visual appeal and brand recognition",
       "Created engaging digital content for the hackathon, boosting participation and user interaction",
     ],
   },
@@ -102,7 +88,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Zain proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -110,7 +96,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Zain does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -118,7 +104,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Zain optimized our website, our traffic increased by 50%. We can't thank him enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -130,10 +116,10 @@ const projects = [
   {
     name: "Full Stack Web App",
     description:
-      "A comprehensive full-stack web application utilizing NextJS, MongoDB, and TailwindCSS, coupled with authentication  from Firebase",
+      "A comprehensive full-stack web application utilizing ReactJS and TailwindCSS, coupled with authentication and messaging from Firebase",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
@@ -141,22 +127,18 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: fullstack,
-    source_code_link: "https://github.com/shashankanp/Next13-Bhive_Task",
-    live_page_link: "https://next13-bhive-task-v1.vercel.app/",
+    source_code_link: "https://github.com/sza619",
+    live_page_link: "https://doctrue-doc-web.vercel.app/",
   },
   {
     name: "Ananya Website",
     description:
-      "A fast and fully responsive website which was used for introducing and showcasing our college fest. Built using NextJS .",
+      "A fast and fully responsive website which was used for introducing and showcasing our college fest. Built using NextJS.",
     tags: [
       {
         name: "nextjs",
@@ -172,31 +154,30 @@ const projects = [
       },
     ],
     image: ananya,
-    source_code_link: "https://github.com/shashankanp/ananya2k23_shash",
-    live_page_link: "https://ananya2k23-shash.vercel.app/",
+    source_code_link: "https://github.com/sza619/ananya2k23",
+    live_page_link: "https://ananya2k23.vercel.app/",
   },
   {
-    name: "Job Portal",
+    name: "Meme Generator",
     description:
-      "A complete job portal app having multiple features which is responsive and has real time information for searching and applying to, built using Expo.",
+      "A Meme Generator to fetch random templates by API calls, input top and bottom text to create Memes and Download them. Built using ReactJS.",
     tags: [
       {
-        name: "expo",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "restapi",
+        name: "js",
         color: "pink-text-gradient",
       },
     ],
-    image: jobportal,
-    source_code_link:
-      "https://github.com/shashankanp/React_Expo-Job_Portal_App",
-    live_page_link: "https://github.com/shashankanp/React_Expo-Job_Portal_App",
+    image: memes,
+    source_code_link: "https://github.com/sza619/MemeGenerator",
+    live_page_link: "https://memesjoemama.netlify.app/",
   },
 ];
 
