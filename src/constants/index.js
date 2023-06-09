@@ -8,7 +8,7 @@ import {
   sentinal,
   fullstack,
   ananya,
-  jobportal,
+  memes,
 } from "../assets";
 
 export const navLinks = [
@@ -138,7 +138,7 @@ const projects = [
   {
     name: "Ananya Website",
     description:
-      "A fast and fully responsive website which was used for introducing and showcasing our college fest. Built using NextJS.",
+      "A fast and fully responsive website which was used for introducing and showcasing our college fest. Built using NextJS and TailwindCSS.",
     tags: [
       {
         name: "nextjs",

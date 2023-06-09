@@ -9,13 +9,12 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import sentinal from "./company/sentinal.png";
-import kaamik from "./company/kaamik.png";
-import nte from "./company/nte.png";
-import bhive from "./company/bhive.png";
+import doctrue from "./company/doctrue.png";
+import percoyo from "./company/percoyo.png";
 
 import fullstack from "./fullstack.png";
 import ananya from "./ananya.png";
-import jobportal from "./jobportal.jpg";
+import memes from "./memes.png";
 
 export {
   logo,
@@ -27,11 +26,10 @@ export {
   lightning,
   menu,
   close,
-  kaamik,
-  bhive,
-  nte,
+  doctrue,
+  percoyo,
   sentinal,
   ananya,
   fullstack,
-  jobportal,
+  memes,
 };
