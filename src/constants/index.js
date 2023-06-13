@@ -9,6 +9,7 @@ import {
   fullstack,
   ananya,
   memes,
+  test3,
 } from "../assets";
 
 export const navLinks = [
@@ -55,7 +56,7 @@ const experiences = [
     points: [
       "Engineered a comprehensive full-stack web application utilizing ReactJS and TailwindCSS, coupled with a secure authentication layer and messaging from Firebase",
       "Spearheaded the development of a highly efficient mobile application built on React Expo, and TailwindCSS, prioritizing user experience and retention through reliable authentication mechanisms",
-      "Initiated a company-wide project aimed at reducing the out-patient waiting time in clinics and hospitals.",
+      "Initiated a company-wide project aimed at reducing the out-patient waiting time in clinics and hospitals",
     ],
   },
   {
@@ -65,7 +66,7 @@ const experiences = [
     iconBg: "white",
     date: "Mar 2023 -  May 2023",
     points: [
-      "Developed a comprehensive website from scratch, utilizing HTML, CSS, JS, and Bootstrap for seamless user experience",
+      "Developed a comprehensive website from scratch, utilizing HTML, CSS, JS and Bootstrap for seamless user experience",
       "The website is currently being utilized as a landing page for Sagar Health Seva",
       "Established the benchmarks for the brand design, reflecting consistency and uniqueness across various platforms",
     ],
@@ -108,7 +109,7 @@ const testimonials = [
     name: "Shashanka Rao",
     designation: "Fullstack Dev",
     company: "BHive",
-    image: "/src/assets/tests/test1.jpg",
+    image: test3,
   },
 ];
 
@@ -116,7 +117,7 @@ const projects = [
   {
     name: "Full Stack Web App",
     description:
-      "A comprehensive full-stack web application utilizing ReactJS and TailwindCSS, coupled with authentication and messaging from Firebase",
+      "A comprehensive full-stack web application utilizing ReactJS and TailwindCSS, coupled with authentication and messaging from Firebase.",
     tags: [
       {
         name: "reactjs",
@@ -133,7 +134,7 @@ const projects = [
     ],
     image: fullstack,
     source_code_link: "https://github.com/sza619",
-    live_page_link: "https://doctrue-doc-web.vercel.app/",
+    live_page_link: "https://doctrue-doc-web.vercel.app/?list=%2B917760915388__12.973005,77.5998479;%2B919632540886__12.973004,77.5998478",
   },
   {
     name: "Ananya Website",

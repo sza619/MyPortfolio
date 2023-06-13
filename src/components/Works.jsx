@@ -86,7 +86,7 @@ const Works = () => {
           links to code repositories and live demos in it. It reflects my
           ability to solve complex problems, work with different technologies,
           and manage projects effectively. These are just a few of many projects
-          that I have built
+          that I have built.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
