@@ -88,27 +88,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Zain proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
+      "Test1",
+    name: "ABC",
+    designation: "DEF",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Zain does.",
-    name: "Chris Brown",
-    designation: "COO",
+      "Test2",
+    name: "ABC",
+    designation: "DEF",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Zain optimized our website, our traffic increased by 50%. We can't thank him enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "An amazing and energetic person to work with who is very well versed in Frontend development.",
+    name: "Shashanka Rao",
+    designation: "Fullstack Dev",
+    company: "BHive",
+    image: "/src/assets/tests/test1.jpg",
   },
 ];
 
