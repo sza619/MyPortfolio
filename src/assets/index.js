@@ -16,7 +16,7 @@ import fullstack from "./fullstack.png";
 import ananya from "./ananya.png";
 import memes from "./memes.png";
 
-import test3 from "./tests/test3.jpg";
+import test3 from "./test3.jpg";
 
 export {
   logo,
