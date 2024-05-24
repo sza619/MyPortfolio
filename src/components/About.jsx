@@ -38,7 +38,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Welcome to my portfolio, the online home of a dedicated Frontend
+        Welcome to my portfolio, the online home of a dedicated Full Stack
         Developer. My name is Syed Zainul Abidin, and as a fresh graduate with an extensive knowledge base and a
         strong drive for innovation, I aspire to build robust, scalable, and
         interactive web applications. I've spent considerable time immersing

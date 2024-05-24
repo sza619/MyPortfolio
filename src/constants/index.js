@@ -6,10 +6,10 @@ import {
   percoyo,
   doctrue,
   sentinal,
-  fullstack,
+  doctrue_website,
   ananya,
   memes,
-  test3,
+  Shashank,
 } from "../assets";
 
 export const navLinks = [
@@ -48,7 +48,7 @@ const services = [
 
 const experiences = [
   {
-    title: "Frontend Dev Intern",
+    title: "Full Stack Dev",
     company_name: "DocTrue",
     icon: doctrue,
     iconBg: "white",
@@ -89,27 +89,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Test1",
-    name: "ABC",
-    designation: "DEF",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "A doer who is hardworking, makes tech look prettier from the outside, a learner, rider, and trustworthy individual.",
+    name: "Akshay Ramesh",
+    designation: "CEO",
+    company: "DocTrue Technologies",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/knots-of-macrame.appspot.com/o/akshay.webp?alt=media&token=05ae5b31-82e5-4879-a901-2dc6cee5303b",
   },
-  {
-    testimonial:
-      "Test2",
-    name: "ABC",
-    designation: "DEF",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
+  // {
+  //   testimonial: "Test2",
+  //   name: "ABC",
+  //   designation: "DEF",
+  //   company: "DEF Corp",
+  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+  // },
   {
     testimonial:
       "An amazing and energetic person to work with who is very well versed in Frontend development.",
     name: "Shashanka Rao",
     designation: "Fullstack Dev",
-    company: "BHive",
-    image: test3,
+    company: "Wind Pioneers",
+    image: Shashank,
   },
 ];
 
@@ -117,7 +117,7 @@ const projects = [
   {
     name: "Full Stack Web App",
     description:
-      "A comprehensive full-stack web application utilizing ReactJS and TailwindCSS, coupled with authentication and messaging from Firebase.",
+      "A comprehensive full-stack web application utilizing ReactJS and Bootstrap, coupled with analytics from Firebase and NodeJS EC2 instance.",
     tags: [
       {
         name: "reactjs",
@@ -132,9 +132,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: fullstack,
+    image: doctrue_website,
     source_code_link: "https://github.com/sza619",
-    live_page_link: "https://doctrue-doc-web.vercel.app/?list=%2B917760915388__12.973005,77.5998479;%2B919632540886__12.973004,77.5998478",
+    live_page_link: "https://doctrue.in",
   },
   {
     name: "Ananya Website",

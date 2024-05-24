@@ -12,11 +12,11 @@ import sentinal from "./company/sentinal.png";
 import doctrue from "./company/doctrue.png";
 import percoyo from "./company/percoyo.png";
 
-import fullstack from "./fullstack.png";
+import doctrue_website from "./doctrue_website.png";
 import ananya from "./ananya.png";
 import memes from "./memes.png";
 
-import test3 from "./test3.jpg";
+import Shashank from "./Shashank.jpg";
 
 export {
   logo,
@@ -32,7 +32,7 @@ export {
   percoyo,
   sentinal,
   ananya,
-  fullstack,
+  doctrue_website,
   memes,
-  test3,
+  Shashank,
 };
