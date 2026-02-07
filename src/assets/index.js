@@ -11,6 +11,7 @@ import close from "./close.svg";
 import sentinal from "./company/sentinal.png";
 import doctrue from "./company/doctrue.png";
 import percoyo from "./company/percoyo.png";
+import zzeeh from "./company/zzeeh.jpg";
 
 import doctrue_website from "./doctrue_website.png";
 import ananya from "./ananya.png";
@@ -35,4 +36,5 @@ export {
   doctrue_website,
   memes,
   Shashank,
+  zzeeh,
 };

@@ -3,13 +3,9 @@ import {
   backend,
   creator,
   web,
-  percoyo,
-  doctrue,
-  sentinal,
   doctrue_website,
   ananya,
   memes,
-  Shashank,
 } from "../assets";
 
 export const navLinks = [
@@ -29,87 +25,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Web Development",
     icon: web,
   },
   {
-    title: "React Native Developer (Expo)",
+    title: "Mobile App Development",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend & API Development",
     icon: backend,
   },
   {
-    title: "Cloud Service",
+    title: "Cloud & Deployment Solutions",
     icon: creator,
-  },
-];
-
-const experiences = [
-  {
-    title: "Full Stack Dev",
-    company_name: "DocTrue",
-    icon: doctrue,
-    iconBg: "white",
-    date: "June 2023 - Present",
-    points: [
-      "Engineered a comprehensive full-stack web application utilizing ReactJS and TailwindCSS, coupled with a secure authentication layer and messaging from Firebase",
-      "Spearheaded the development of a highly efficient mobile application built on React Expo, and TailwindCSS, prioritizing user experience and retention through reliable authentication mechanisms",
-      "Initiated a company-wide project aimed at reducing the out-patient waiting time in clinics and hospitals",
-    ],
-  },
-  {
-    title: "Web Dev Intern",
-    company_name: "Percoyo",
-    icon: percoyo,
-    iconBg: "white",
-    date: "Mar 2023 -  May 2023",
-    points: [
-      "Developed a comprehensive website from scratch, utilizing HTML, CSS, JS and Bootstrap for seamless user experience",
-      "The website is currently being utilized as a landing page for Sagar Health Seva",
-      "Established the benchmarks for the brand design, reflecting consistency and uniqueness across various platforms",
-    ],
-  },
-  {
-    title: "Hackathon Organizer",
-    company_name: "KSIT",
-    icon: sentinal,
-    iconBg: "#383E56",
-    date: "2022 & 2023 ",
-    points: [
-      "Served as a Hackathon Organizer for Sentinal Hack 3.0 during 2022 and 2023, overseeing crucial technical components",
-      "Managed the infrastructure, ensuring smooth operations and consistent availability throughout the event",
-      "Demonstrated creative skills by designing the logo, event posters, enhancing visual appeal and brand recognition",
-      "Created engaging digital content for the hackathon, boosting participation and user interaction",
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "A doer who is hardworking, makes tech look prettier from the outside, a learner, rider, and trustworthy individual.",
-    name: "Akshay Ramesh",
-    designation: "CEO",
-    company: "DocTrue Technologies",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/knots-of-macrame.appspot.com/o/akshay.webp?alt=media&token=05ae5b31-82e5-4879-a901-2dc6cee5303b",
-  },
-  // {
-  //   testimonial: "Test2",
-  //   name: "ABC",
-  //   designation: "DEF",
-  //   company: "DEF Corp",
-  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
-  // },
-  {
-    testimonial:
-      "An amazing and energetic person to work with who is very well versed in Frontend development.",
-    name: "Shashanka Rao",
-    designation: "Fullstack Dev",
-    company: "Wind Pioneers",
-    image: Shashank,
   },
 ];
 
@@ -182,4 +111,4 @@ const projects = [
   },
 ];
 
-export { services, experiences, testimonials, projects };
+export { services, projects };

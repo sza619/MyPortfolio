@@ -5,7 +5,7 @@ import {
 import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
-import { experiences } from "../constants";
+import { experiences } from "../assets/data/exp";
 import "react-vertical-timeline-component/style.min.css";
 import { textVariant } from "../utils/motion";
 

@@ -38,14 +38,18 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Welcome to my portfolio, the online home of a dedicated Full Stack
-        Developer. My name is Syed Zainul Abidin, and as a fresh graduate with an extensive knowledge base and a
-        strong drive for innovation, I aspire to build robust, scalable, and
-        interactive web applications. I've spent considerable time immersing
-        myself in the world of programming and web development. The skillset I
-        bring to the table is both wide and deep. I've developed numerous
-        web applications, each one tailored to solving a unique problem
-        or catering to a distinct user need.
+        Welcome to my portfolio! The digital home of a Full Stack Developer
+        passionate about building meaningful software. My name is Syed Zainul
+        Abidin, a fresh graduate with a strong foundation in modern web
+        technologies and a deep interest in creating robust, scalable, and
+        user-centric applications. I’ve spent considerable time immersed in the
+        world of programming and web development, working across the full stack
+        to turn ideas into reliable, production-ready solutions. My skill set is
+        both broad and practical, shaped by building real-world applications
+        that solve concrete problems and deliver clear value to users. From
+        designing intuitive interfaces to developing scalable backend systems, I
+        enjoy crafting end-to-end experiences that are efficient, maintainable,
+        and impactful.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

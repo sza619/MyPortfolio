@@ -1,10 +1,11 @@
+import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
-import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { sendTelegramAlert } from "../utils/funcs";
 
 const Contact = () => {
   const formRef = useRef();
@@ -19,39 +20,42 @@ const Contact = () => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
   };
-  const handleSubmit = (e) => {
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs
-      .send(
+    try {
+      // 1️⃣ Send email
+      await emailjs.send(
         "service_q94h7z8",
         "template_y97jscz",
         {
           from_name: form.name,
-          to_name: "Syed Zain",
           from_email: form.email,
           to_email: "syed.zain4401@gmail.com",
           message: form.message,
         },
-        "aiEsxDHJHs58QZ_iZ"
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you! I will get back to you as soon as possible :)");
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.log(error);
-          alert("Something went wrong");
-        }
+        "aiEsxDHJHs58QZ_iZ",
       );
+
+      // 2️⃣ Send Telegram alert (non-blocking)
+      sendTelegramAlert(form).catch(console.error);
+
+      // 3️⃣ UX feedback
+      setForm({ name: "", email: "", message: "" });
+
+      alert(
+        "Thank you for reaching out! Your message has been received and I’ll get back to you shortly.",
+      );
+    } catch (error) {
+      console.error(error);
+      alert(
+        "Something went wrong while sending your message. Please try again or contact me directly via email.",
+      );
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
