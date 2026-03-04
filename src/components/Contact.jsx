@@ -6,6 +6,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { sendTelegramAlert } from "../utils/funcs";
+import { saveContactMessage } from "../utils/firebase";
 
 const Contact = () => {
   const formRef = useRef();
@@ -39,10 +40,13 @@ const Contact = () => {
         "aiEsxDHJHs58QZ_iZ",
       );
 
-      // 2️⃣ Send Telegram alert (non-blocking)
-      sendTelegramAlert(form).catch(console.error);
+      // 2️⃣ Store in Firestore
+      await saveContactMessage(form);
 
-      // 3️⃣ UX feedback
+      // 3️⃣ Send Telegram alert (non-blocking)
+      await sendTelegramAlert(form).catch(console.error);
+
+      // 4️⃣ UX feedback
       setForm({ name: "", email: "", message: "" });
 
       alert(
